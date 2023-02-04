@@ -1,0 +1,17 @@
+@keyframes cloud {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translate(20%, 5px);
+  }
+}
+
+.cloud {
+  animation-name: cloud;
+  animation-duration: 2s;
+  transition: transform 2s ease-in-out;
+  position: relative;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}

@@ -1,0 +1,58 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #aeaeae;
+}
+
+
+span.fork {
+  background: rgb(52, 52, 52);
+  color: white;
+  padding: 6px;
+  border-radius: 4px 0 0 4px;
+}
+
+section {
+  border-radius: 5px;
+  margin-top: 16px;
+  background: white;
+  padding: 16px;
+}
+
+div.triangle {
+  background: rgb(52, 52, 52);
+  color: white;
+  display: inline;
+  padding: 6px;
+  border-radius: 0 4px 4px 0;
+  position: relative;
+}
+
+div.triangle span {
+  transform: rotate(90deg);
+}
+
+div.thing.vinu ul {
+  padding: 0;
+}
+
+div.thing.vinu li {
+  padding: 0;
+  margin: 12px;
+}
+
+div.thing.vinu li span {
+  padding: 3px;
+  margin-left: 4px;
+  border-radius: 3px;
+  background: #000072;
+  color: white;
+}
+
+div.thing.vinu {
+  padding: 20px;
+  margin-bottom: 16px;
+  color: white;
+}
